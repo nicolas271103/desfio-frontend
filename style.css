@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #f8f9fa (210, 11%, 15%);
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 500;
+  color: #f8f9fa;
+  font-family: "Avenir", sans-serif;
+  font-size: calc(1.375rem + 1.5vw);
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+    
+}
+
+
+h2 {
+  font-size: 22pt;
+}
+
+h3 {
+  font-size: 20pt;
+}
+
+h4 {
+  font-size: 18pt;
+}
+
+h5 {
+  font-size: 16pt;
+}
+
+h6 {
+  font-size: 14pt;
+  color: #f8f9fa;
+}
+
+p {
+  font-size: 12pt;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  color: #ffffff;
+  position: fixed;
+}
+
+header img {
+  padding-left: 200px;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 200px;
+}
+
+header ul li {
+  text-transform: uppercase;
+  list-style: none;
+  padding: 15px;
+  cursor: pointer;
+  transition: all .8s;
+  border-radius: 8px;
+}
+
+header ul li:hover {
+  background-color: #ffffffd9;
+  color: #000000;
+}
+
+section {
+  width: 100%;
+  height: 94vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home {
+  padding-top: 70px;
+  background-image: url("https://sqad.com.br/assets/images/home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about {
+  background-color: rgb(106, 255, 0);
+}
+
+.contact {
+  background-color: rgb(0, 0, 0);
+}
+.para-ligth {
+  color: #f8f9fa;
+}
+
+.navbar .dropdown .dropdown-menu {
+  animation: fadeDropdown 0.2s; /* required for the fade animation */
+}
+
+@-webkit-keyframes fadeDropdown {
+0% {
+  opacity: 0;
+}
+
+100% {
+  opacity: 1;
+}
+}
+
+@keyframes fadeDropdown {
+0% {
+  opacity: 0;
+}
+
+100% {
+  opacity: 1;
+}
+}
+
+
+.form-control-textarea {
+width: 100%;
+appearance: none;
+border-radius: 4px;
+font-size: 0.875rem;
+line-height: 1.5rem;
+padding-left: 1.5rem;
+padding-top: 0.775rem;
+padding-bottom: 0.775rem;
+}
+
+.form-control-input:focus {
+border-color: var(--secondary);
+outline: 0;
+box-shadow: 0 0 0 0.20rem var(--secondary);
+}
+
+section div {
+  width: 75%;
+}
+
+section .contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
